@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -23,16 +28,18 @@ img {
 
 a {
     text-decoration: none;
+    color: #777777;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-top: 1.25rem;
 }
 
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 3rem;
-}
-
-footer {
-    background-color: #666666;
 }
 
 .container {
@@ -109,9 +116,27 @@ li > a {
     padding: 0 20px;
 }
 
+.main {
+    min-height: calc(100vh - 150px);
+}
+
 .profile-img {
     float: left;
-    width: 25%;
+    width: 30%;
     margin-right: 10px;
 }
 
+/* Footer Styles */
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.center {
+    text-align: center;
+}
+
+.white {
+    color: #fff;
+}
