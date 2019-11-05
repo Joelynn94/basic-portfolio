@@ -140,3 +140,57 @@ footer {
 .white {
     color: #fff;
 }
+
+
+/* Contact.html Styles */
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item{
+    margin: 20px 0 20px 0;
+}
+
+.contact-item > label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-item > input,
+.contact-item > textarea {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: .9rem;
+    background-color: #e8eeef;
+    border: none;
+    outline: 0;
+}
+
+.contact-item > input {
+    height: 50px;
+}
+
+.contact-item > textarea {
+    height: 150px;
+}
+
+.submit-button {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+input:focus, 
+textarea:focus, 
+select:focus {
+    border: 2px solid #4aaaa5;
+    background-color: #fff;
+}
