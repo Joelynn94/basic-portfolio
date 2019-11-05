@@ -114,7 +114,8 @@ li > a {
 .main-content {
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    padding: 0 20px;
+    padding: 0 20px 40px 20px;
+    margin-bottom: 40px;
 }
 
 .main {
@@ -143,7 +144,7 @@ footer {
 }
 
 
-/* Contact.html Styles */
+/* Contact Styles */
 
 .contact-list {
     list-style-type: none;
@@ -194,4 +195,27 @@ textarea:focus,
 select:focus {
     border: 2px solid #4aaaa5;
     background-color: #fff;
+}
+
+
+/* Portfolio Styles */
+
+.project {
+    width: 30%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.project-name {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+
+    position: absolute;
+    bottom: 0;
 }
